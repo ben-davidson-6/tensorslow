@@ -1,0 +1,34 @@
+{
+  "python.pythonPath": "/home/ben/miniconda3/envs/tensorSlow/bin/python",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/tensorslow.egg-info": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.tox": true
+  },
+  "editor.quickSuggestions": true,
+
+  // formatting
+  "python.linting.mypyEnabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.formatOnPaste": false
+  },
+
+  // testing
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "pytest",
+  "python.testing.pytestArgs": ["."],
+  "restructuredtext.confPath": "./sphinx"
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tensorslow package &mdash; tensorslow 0.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="tensorslow.data package" href="tensorslow.data.html" />
+    <link rel="prev" title="tensorslow" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> tensorslow
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Tensorslow</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Read Me</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modules.html">tensorslow</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">tensorslow package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tensorslow.data.html">tensorslow.data package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tensorslow.layers.html">tensorslow.layers package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tensorslow.operations.html">tensorslow.operations package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tensorslow.optimisers.html">tensorslow.optimisers package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-tensorslow.approx">tensorslow.approx module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-tensorslow.constants">tensorslow.constants module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-tensorslow.gradient_tape">tensorslow.gradient_tape module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-tensorslow.model">tensorslow.model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-tensorslow.tensor">tensorslow.tensor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-tensorslow">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.data.html">tensorslow.data package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.layers.html">tensorslow.layers package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.operations.html">tensorslow.operations package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.optimisers.html">tensorslow.optimisers package</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">tensorslow</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">tensorslow</a> &raquo;</li>
+      <li>tensorslow package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/tensorslow.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tensorslow-package">
+<h1>tensorslow package<a class="headerlink" href="#tensorslow-package" title="Permalink to this headline"></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.data.html">tensorslow.data package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.data.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.data.html#module-tensorslow.data.datasets">tensorslow.data.datasets module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.data.html#module-tensorslow.data">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.layers.html">tensorslow.layers package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.layers.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.layers.html#module-tensorslow.layers.base">tensorslow.layers.base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.layers.html#module-tensorslow.layers">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.operations.html">tensorslow.operations package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.operations.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.operations.html#module-tensorslow.operations.base">tensorslow.operations.base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.operations.html#module-tensorslow.operations">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tensorslow.optimisers.html">tensorslow.optimisers package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.optimisers.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.optimisers.html#module-tensorslow.optimisers.base">tensorslow.optimisers.base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tensorslow.optimisers.html#module-tensorslow.optimisers">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
+</section>
+<section id="module-tensorslow.approx">
+<span id="tensorslow-approx-module"></span><h2>tensorslow.approx module<a class="headerlink" href="#module-tensorslow.approx" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="tensorslow.approx.CentredDifferenceApproximator">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">tensorslow.approx.</span></span><span class="sig-name descname"><span class="pre">CentredDifferenceApproximator</span></span><a class="headerlink" href="#tensorslow.approx.CentredDifferenceApproximator" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tensorslow.approx.CentredDifferenceApproximator.centred_difference">
+<span class="sig-name descname"><span class="pre">centred_difference</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span> </span><span class="pre">numpy.dtype</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.typing._generic_alias.ScalarType</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#tensorslow.approx.CentredDifferenceApproximator.centred_difference" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tensorslow.approx.CentredDifferenceApproximator.h">
+<span class="sig-name descname"><span class="pre">h</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1e-08</span></em><a class="headerlink" href="#tensorslow.approx.CentredDifferenceApproximator.h" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tensorslow.approx.CentredDifferenceApproximator.set_function">
+<span class="sig-name descname"><span class="pre">set_function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span> </span><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_0</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#tensorslow.approx.CentredDifferenceApproximator.set_function" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tensorslow.constants">
+<span id="tensorslow-constants-module"></span><h2>tensorslow.constants module<a class="headerlink" href="#module-tensorslow.constants" title="Permalink to this headline"></a></h2>
+</section>
+<section id="module-tensorslow.gradient_tape">
+<span id="tensorslow-gradient-tape-module"></span><h2>tensorslow.gradient_tape module<a class="headerlink" href="#module-tensorslow.gradient_tape" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.GradientTape">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">tensorslow.gradient_tape.</span></span><span class="sig-name descname"><span class="pre">GradientTape</span></span><a class="headerlink" href="#tensorslow.gradient_tape.GradientTape" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.GradientTape.add_node">
+<span class="sig-name descname"><span class="pre">add_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">inputs</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a><span class="p"><span class="pre">,</span> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outputs</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">backward_closure</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#tensorslow.gradient_tape.GradientTape.add_node" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.GradientTape.clear">
+<span class="sig-name descname"><span class="pre">clear</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#tensorslow.gradient_tape.GradientTape.clear" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.GradientTape.gradients">
+<span class="sig-name descname"><span class="pre">gradients</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span> </span><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#tensorslow.gradient_tape.GradientTape.gradients" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.Node">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">tensorslow.gradient_tape.</span></span><span class="sig-name descname"><span class="pre">Node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">inputs</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a><span class="p"><span class="pre">,</span> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outputs</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#tensorslow.tensor.Tensor" title="tensorslow.tensor.Tensor"><span class="pre">tensorslow.tensor.Tensor</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">backward_closure</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tensorslow.gradient_tape.Node" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.active_tape">
+<span class="sig-prename descclassname"><span class="pre">tensorslow.gradient_tape.</span></span><span class="sig-name descname"><span class="pre">active_tape</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">None</span><span class="p"><span class="pre">,</span> </span><a class="reference internal" href="#tensorslow.gradient_tape.GradientTape" title="tensorslow.gradient_tape.GradientTape"><span class="pre">tensorslow.gradient_tape.GradientTape</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#tensorslow.gradient_tape.active_tape" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="tensorslow.gradient_tape.set_active_tape">
+<span class="sig-prename descclassname"><span class="pre">tensorslow.gradient_tape.</span></span><span class="sig-name descname"><span class="pre">set_active_tape</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gradient_tape</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#tensorslow.gradient_tape.GradientTape" title="tensorslow.gradient_tape.GradientTape"><span class="pre">tensorslow.gradient_tape.GradientTape</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#tensorslow.gradient_tape.set_active_tape" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-tensorslow.model">
+<span id="tensorslow-model-module"></span><h2>tensorslow.model module<a class="headerlink" href="#module-tensorslow.model" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="tensorslow.model.Model">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">tensorslow.model.</span></span><span class="sig-name descname"><span class="pre">Model</span></span><a class="headerlink" href="#tensorslow.model.Model" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="tensorslow.layers.html#tensorslow.layers.base.Layer" title="tensorslow.layers.base.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">tensorslow.layers.base.Layer</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tensorslow.model.Model.build">
+<span class="sig-name descname"><span class="pre">build</span></span><em class="property"><span class="pre">:</span> <span class="pre">Callable</span></em><a class="headerlink" href="#tensorslow.model.Model.build" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tensorslow.model.Model.forward">
+<span class="sig-name descname"><span class="pre">forward</span></span><em class="property"><span class="pre">:</span> <span class="pre">Callable</span></em><a class="headerlink" href="#tensorslow.model.Model.forward" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tensorslow.tensor">
+<span id="tensorslow-tensor-module"></span><h2>tensorslow.tensor module<a class="headerlink" href="#module-tensorslow.tensor" title="Permalink to this headline"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="tensorslow.tensor.Tensor">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">tensorslow.tensor.</span></span><span class="sig-name descname"><span class="pre">Tensor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span> </span><span class="pre">numpy.dtype</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.typing._generic_alias.ScalarType</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trainable</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tensorslow.tensor.Tensor" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tensorslow.tensor.Tensor.count">
+<span class="sig-name descname"><span class="pre">count</span></span><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#tensorslow.tensor.Tensor.count" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tensorslow.tensor.Tensor.name">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">name</span></span><em class="property"><span class="pre">:</span> <span class="pre">str</span></em><a class="headerlink" href="#tensorslow.tensor.Tensor.name" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tensorslow.tensor.Tensor.trainable">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">trainable</span></span><em class="property"><span class="pre">:</span> <span class="pre">bool</span></em><a class="headerlink" href="#tensorslow.tensor.Tensor.trainable" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tensorslow.tensor.Tensor.value">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">value</span></span><em class="property"><span class="pre">:</span> <span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">Any</span><span class="p"><span class="pre">,</span> </span><span class="pre">numpy.dtype</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.typing._generic_alias.ScalarType</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#tensorslow.tensor.Tensor.value" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tensorslow">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-tensorslow" title="Permalink to this headline"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="tensorslow" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tensorslow.data.html" class="btn btn-neutral float-right" title="tensorslow.data package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Ben Davidson.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

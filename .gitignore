@@ -1,0 +1,5 @@
+.mypy_cache/
+.tox/
+*.pyc
+sphinx/_build/
+tensorslow.egg-info/
